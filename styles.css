@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#train-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 1.2em;
+}
