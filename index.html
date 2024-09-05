@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuzzy Train Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fuzzy Train Tracker</h1>
+    <div id="train-container">
+        <label for="train-time">Enter Train Time (24h format):</label>
+        <input type="text" id="train-time" placeholder="e.g., 14:30">
+        <button onclick="predictTrainArrival()">Predict Arrival</button>
+        <p id="prediction-result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
